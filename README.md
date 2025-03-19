@@ -1,2 +1,2 @@
 # mernStack-1
-This is a practice repo for me
+This is a practice repo for me.
