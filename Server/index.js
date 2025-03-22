@@ -5,12 +5,9 @@ const app=express();
 
 const DB=`mongodb+srv://malavrohit1620:rohit@1Github@cluster0.uzeev.mongodb.net/mernStack-1?retryWrites=true&w=majority&appName=Cluster0`
 
-mongoose.connect(DB,{
-     useCreateIndex: true, 
-    useFindAndModify: false, 
-    useNewUrlParser: true, 
-    useUnifiedTopology: true
-}).then(()=>{
+mongoose.connect(DB
+    
+).then(()=>{
       console.log("mongoDB atlas connected");
       
 }).catch((err)=>{
